@@ -1,0 +1,92 @@
+@font-face {
+     font-family: macaco;
+     src: url(./font/Sweetie\ Banana.otf);
+}
+
+* {
+     margin: 0px;
+     padding: 0px;
+}
+
+body {
+     background-color: burlywood;
+}
+
+header {
+     background-image: url(./download.jpg);
+     width: 100%;
+     height: 150px;
+     /* height: 120px; */
+}
+
+.topo h1 {
+     font-size: 60px;
+     font-family: "macaco";
+     text-align: center;
+     color: rgb(78, 73, 22);
+     font-weight: bold;
+
+
+}
+
+.lista {
+     margin-top: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     list-style: none;
+     margin-left: 30px;
+     font-weight: bold;
+}
+
+.lista li {
+    font-size: 30px;
+     margin-right: 25px;
+
+}
+
+
+.lista li a{
+     text-decoration: none;
+     list-style: none;
+     color: rgb(0, 0, 0);
+}
+
+.lista li a:hover {
+     color: rgb(0, 0, 0);
+     background-color: bisque;
+     padding: 5px;
+     border-radius: 15px;
+}
+
+.tecnologia {
+     font-size: 20px;
+     display: flex;
+     justify-content:space-evenly;
+     justify-items: center;
+}
+
+.tecnologia h2 {
+
+      font-size: 40px;
+}
+
+.tecnologia img {
+     border-radius: 25px;
+}
+
+.contato {
+     display: flex;
+     justify-content: space-evenly;
+     justify-items: center;
+     font-size: 25px;
+}
+
+.contato h2 {
+     font-size: 50px;
+}
+
+.contato img {
+     border-radius: 25px;
+}
+
